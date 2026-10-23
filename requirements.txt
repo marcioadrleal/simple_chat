@@ -22,3 +22,14 @@ psycopg[binary,pool]
 # Testes
 pytest
 httpx
+
+# PostgreSQL
+psycopg[binary,pool]
+
+# Suporte ao pgvector
+pgvector
+
+# ORM (opcional, para consultas usando modelos)
+sqlalchemy
+
+sentence-transformers
