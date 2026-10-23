@@ -1,0 +1,24 @@
+# API REST
+fastapi
+uvicorn[standard]
+
+# Configuração
+python-dotenv
+pydantic
+pydantic-settings
+
+# OpenAI
+openai
+langchain-openai
+
+# LangChain / LangGraph
+langchain-core
+langgraph
+
+# Persistência de conversas (PostgreSQL)
+langgraph-checkpoint-postgres
+psycopg[binary,pool]
+
+# Testes
+pytest
+httpx
